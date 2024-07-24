@@ -1,0 +1,40 @@
+{
+    "Monday": [
+    ],
+    "Tuesday": [
+        {
+            "name": "Grilled Chicken Salad",
+            "price": 12.99,
+            "ingredients": ["chicken", "lettuce", "tomatoes", "cucumbers", "olive oil"],
+            "label": "Gluten-free"
+        }
+    ],
+    "Wednesday": [
+    ],
+    "Thursday": [
+        {
+            "name": "Pizza Meat Lovers",
+            "price": 14.99,
+            "ingredients": ["tomato", "mozzarella cheese", "pepperoni", "ham", "sausage", "bacon"],
+            "label": ""
+        }
+    ],
+    "Friday": [
+        {
+            "name": "Pizza Fryday I'm in Love",
+            "price": 14.99,
+            "ingredients": ["tomato", "mozzarella cheese", "a lot of fries"],
+            "label": "Vegetarian"
+        }
+    ],
+    "Saturday": [
+        {
+            "name": "Pizza Turbo",
+            "price": 14.99,
+            "ingredients": ["tomato", "mozzarella cheese", "basil", "pepperoni", "ham", "sausage", "mushrooms", "onions", "black olives", "green peppers"],
+            "label": ""
+        }
+    ],
+    "Sunday": [
+    ]
+}
