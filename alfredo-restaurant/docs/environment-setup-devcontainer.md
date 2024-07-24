@@ -11,7 +11,7 @@ You will need:
 
 ## Configure environment variables 
 
-Create a .env file in the root directory of the repository with these details:
+Create a .env file in the `alfredo-restaurant` directory with these details:
 
 ```bash 
 AZURE_OPENAI_ENDPOINT=https://<your-endpoint>.openai.azure.com/

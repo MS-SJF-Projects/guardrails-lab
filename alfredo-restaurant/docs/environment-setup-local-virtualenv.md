@@ -37,7 +37,7 @@ also loads environment variables).
 
 ### Configuration 
 
-Create a `.env` file in the root directory, based on the sample [.env.sample](../.env.sample).
+Create a `.env` file based on the sample [.env.sample](../.env.sample).
 
 ```bash 
 AZURE_OPENAI_API_KEY=****************************

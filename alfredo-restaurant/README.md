@@ -5,7 +5,6 @@ Welcome to **Alfredo restaurant** app.
 Here, you will find several directories: 
 
 ```bash 
-├── .devcontainer           # Local environment setup for the agents lab if you use VS code devcontainers 
 ├── chat-api                # Chat API used by the Guardrails lab 
 ├── chat-ui                 # Chat front-end for sending requests to & seeing results from the Chat API
 ├── restaurant-api          # Chat front-end for sending requests to & seeing results from the Chat API
@@ -39,8 +38,3 @@ You have 2 options for environment setup, installation of APIs and using Noteboo
 2. [**Poetry & python**](docs/environment-setup-local-virtualenv) - for developers comfortable with the command line, pyenv and poetry.
 
 We recommend the devcontainer route. 
-
-
-## Next step
-
-After setting up the project, see the [Guardrail Lab](guardrail-lab/00-Start-Here/README.md) to get started with Guardrails.
