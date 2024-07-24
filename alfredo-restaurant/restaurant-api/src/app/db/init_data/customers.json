@@ -1,0 +1,178 @@
+[
+  {
+    "firstname": "Bart",
+    "lastname": "Simpson",
+    "email": "bart@simpson.com",
+    "id": "#1234",
+    "card_digits": "8743",
+    "address": {
+      "street": "1234 Elm St",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701",
+      "country": "USA"
+    },
+    "special": "true",
+    "phone": "555-555-5555"
+  },
+  {
+    "firstname": "Homer",
+    "lastname": "Simpson",
+    "email": "homer@simpson.com",
+    "id": "#5678",
+    "card_digits": "6295",
+    "address": {
+      "street": "742 Evergreen Terrace",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701",
+      "country": "USA"
+    },
+    "special": "true",
+    "phone": "555-555-5556"
+  },
+  {
+    "firstname": "Margie",
+    "lastname": "Simpson",
+    "email": "margie@simpson.com",
+    "id": "#9101",
+    "card_digits": "4801",
+    "address": {
+      "street": "742 Evergreen Terrace",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701",
+      "country": "USA"
+    },
+    "special": "false",
+    "phone": "555-555-5557"
+  },
+  {
+    "firstname": "Fred",
+    "lastname": "Flintstone",
+    "email": "fred@flintstone.com",
+    "id": "#4321",
+    "card_digits": "1234",
+    "address": {
+      "street": "301 Cobblestone Way",
+      "city": "Bedrock",
+      "state": "CA",
+      "zip": "95959",
+      "country": "USA"
+    },
+    "special": "true",
+    "phone": "555-555-5560"
+  },
+  {
+    "firstname": "Wilma",
+    "lastname": "Flintstone",
+    "email": "wilma@flintstone.com",
+    "id": "#8765",
+    "card_digits": "5678",
+    "address": {
+      "street": "301 Cobblestone Way",
+      "city": "Bedrock",
+      "state": "CA",
+      "zip": "95959",
+      "country": "USA"
+    },
+    "special": "false",
+    "phone": "555-555-5561"
+  },
+  {
+    "firstname": "Barney",
+    "lastname": "Rubble",
+    "email": "barney@rubble.com",
+    "id": "#6543",
+    "card_digits": "8765",
+    "address": {
+      "street": "303 Cobblestone Way",
+      "city": "Bedrock",
+      "state": "CA",
+      "zip": "95959",
+      "country": "USA"
+    },
+    "special": "true",
+    "phone": "555-555-5562"
+  },
+  {
+    "firstname": "George",
+    "lastname": "Jetson",
+    "email": "george@jetson.com",
+    "id": "#3456",
+    "card_digits": "2345",
+    "address": {
+      "street": "1000 Orbit City",
+      "city": "Orbit City",
+      "state": "FC",
+      "zip": "70000",
+      "country": "USA"
+    },
+    "special": "true",
+    "phone": "555-555-5570"
+  },
+  {
+    "firstname": "Jane",
+    "lastname": "Jetson",
+    "email": "jane@jetson.com",
+    "id": "#7890",
+    "card_digits": "6789",
+    "address": {
+      "street": "1000 Orbit City",
+      "city": "Orbit City",
+      "state": "FC",
+      "zip": "70000",
+      "country": "USA"
+    },
+    "special": "false",
+    "phone": "555-555-5571"
+  },
+  {
+    "firstname": "Elroy",
+    "lastname": "Jetson",
+    "email": "elroy@jetson.com",
+    "id": "#0123",
+    "card_digits": "0123",
+    "address": {
+      "street": "1000 Orbit City",
+      "city": "Orbit City",
+      "state": "FC",
+      "zip": "70000",
+      "country": "USA"
+    },
+    "special": "true",
+    "phone": "555-555-5572"
+  },
+  {
+    "firstname": "Dastardly",
+    "lastname": "Dick",
+    "email": "dick@dastardly.com",
+    "id": "#1212",
+    "card_digits": "1212",
+    "address": {
+      "street": "123 Perilous Path",
+      "city": "Villainsville",
+      "state": "NY",
+      "zip": "10001",
+      "country": "USA"
+    },
+    "special": "true",
+    "phone": "555-555-5580"
+  },
+  {
+    "firstname": "Muttley",
+    "lastname": "Dog",
+    "email": "muttley@dog.com",
+    "id": "#2323",
+    "card_digits": "2323",
+    "address": {
+      "street": "123 Perilous Path",
+      "city": "Villainsville",
+      "state": "NY",
+      "zip": "10001",
+      "country": "USA"
+    },
+    "special": "false",
+    "phone": "555-555-5581"
+  }
+]

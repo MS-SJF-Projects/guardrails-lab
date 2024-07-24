@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  restaurant-api:
+    image: restaurant-api:latest
+    container_name: restaurant-api
+    ports:
+      - "8000:8000"
+    networks:
+      - app-network
+  chat-api:
+    image: chat-api:latest
+    container_name: chat-api
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+    environment:
+      - RESTAURANT_API_BASE=http://restaurant-api:8000
+      - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}
+      - AZURE_OPENAI_ENDPOINT=${AZURE_OPENAI_ENDPOINT}
+      - AZURE_OPENAI_DEPLOYMENT=${AZURE_OPENAI_DEPLOYMENT}
+      - AZURE_OPENAI_API_VERSION=${AZURE_OPENAI_API_VERSION}
+      - TIMEZONE=${TIMEZONE}
+  chat-ui:
+    image: chat-ui:latest
+    container_name: chat-ui
+    ports:
+      - "8080:80"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Alfredo Chat API",
+            "type": "python",
+            "request": "launch",
+            "pythonPath": "${workspaceFolder}/.venv/bin/python",
+            "cwd": "${workspaceFolder}/chat-api",
+            "module": "uvicorn",
+            "justMyCode": false,
+            "args": [
+                "app.main:app",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "3000",
+                "--reload"
+            ]
+        },
+        {
+            "name": "Alfredo Chat UI",
+            "type": "pwa-msedge",
+            "request": "launch",
+            "url": "http://localhost:8080/",
+            "webRoot": "${workspaceFolder}/alfredo-restaurant/chat-ui"
+        }
+    ]
+}

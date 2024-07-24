@@ -1,0 +1,130 @@
+{
+    "pasta": [
+        {
+            "name": "Spaghetti Carbonara",
+            "price": 12.99,
+            "ingredients": ["spaghetti", "bacon", "eggs", "parmesan cheese"],
+            "label": ""
+        },
+        {
+            "name": "Spaghetti Bolognese",
+            "price": 11.99,
+            "ingredients": ["spaghetti", "ground beef", "tomato sauce", "onions", "garlic", "carrots", "celery"],
+            "label": ""
+        },
+        {
+            "name": "Lasagna",
+            "price": 13.99,
+            "ingredients": ["lasagna noodles", "eggplant", "tofu", "tomato sauce", "mozzarella cheese", "parmesan cheese", "ricotta cheese"],
+            "label": "Vegetarian"
+        },
+        {
+            "name": "Penne all'Arrabbiata",
+            "price": 10.99,
+            "ingredients": ["penne", "tomato sauce", "garlic", "chili flakes", "parsley"],
+            "label": "Vegetarian"
+        },
+        {
+            "name": "Ravioli",
+            "price": 12.99,
+            "ingredients": ["ravioli", "ricotta cheese", "spinach", "parmesan cheese", "tomato sauce"],
+            "label": "Vegetarian"
+        }
+    ],
+    "pizza": [
+        {
+            "name": "Margherita",
+            "price": 9.99,
+            "ingredients": ["tomato sauce", "mozzarella cheese", "fresh basil"],
+            "label": "Vegetarian"
+        },
+        {
+            "name": "Pepperoni",
+            "price": 11.99,
+            "ingredients": ["tomato sauce", "mozzarella cheese", "pepperoni"],
+            "label": ""
+        },
+        {
+            "name": "Vegetarian",
+            "price": 10.99,
+            "ingredients": ["tomato sauce", "mozzarella cheese", "mushrooms", "bell peppers", "onions", "olives"],
+            "label": "Vegetarian"
+        },
+        {
+            "name": "Capricciosa",
+            "price": 12.99,
+            "ingredients": ["tomato sauce", "mozzarella cheese", "ham", "mushrooms", "black olives", "oregano"],
+            "label": ""
+        },
+        {
+            "name": "Tartufo",
+            "price": 12.99,
+            "ingredients": ["tomato sauce", "mozzarella cheese", "truffle", "mushrooms", "parmesan cheese"],
+            "label": "Vegetarian"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Coke",
+            "price": 2.99,
+            "ingredients": [],
+            "label": ""
+        },
+        {
+            "name": "Fanta",
+            "price": 2.99,
+            "ingredients": [],
+            "label": ""
+        },
+        {
+            "name": "White Wine",
+            "price": 29.99,
+            "ingredients": [],
+            "label": ""
+        },
+        {
+            "name": "Water",
+            "price": 1.99,
+            "ingredients": [],
+            "label": ""
+        },
+        {
+            "name": "Beer",
+            "price": 3.99,
+            "ingredients": [],
+            "label": ""
+        }
+    ],
+    "dessert": [
+        {
+            "name": "Tiramisu",
+            "price": 5.99,
+            "ingredients": ["ladyfingers", "espresso", "mascarpone cheese", "cocoa powder"],
+            "label": "Vegetarian"
+        },
+        {
+            "name": "Panna Cotta",
+            "price": 4.99,
+            "ingredients": ["cream", "sugar", "gelatin", "vanilla"],
+            "label": "Glutenfree"
+        },
+        {
+            "name": "Cannoli",
+            "price": 6.99,
+            "ingredients": ["pastry dough", "ricotta cheese", "sugar", "chocolate chips"],
+            "label": "Vegetarian"
+        },
+        {
+            "name": "Gelato",
+            "price": 3.99,
+            "ingredients": ["milk", "sugar", "flavoring"],
+            "label": "Vegetarian, Glutenfree"
+        },
+        {
+            "name": "Sorbet",
+            "price": 3.99,
+            "ingredients": ["fruit", "sugar", "water"],
+            "label": "Vegetarian, Glutenfree"
+        }
+    ]
+}
