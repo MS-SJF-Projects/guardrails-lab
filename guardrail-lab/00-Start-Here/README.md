@@ -6,7 +6,6 @@ The lab is divided into 4 different stages, each representing a part of the AI S
 
 1. **Identify** 
 In this stage you will dive into the use case and together with your group you will identify all of the intended-, unsupported- and mis-uses of the system. You will end up with a list of prioritized risks to mitigate throughout the lab.
-In this stage you will dive into the use case and together with your group you will identify all of the intended-, unsupported- and mis-uses of the system. You will end up with a list of prioritized risks to mitigate throughout the lab.
 
 2. **Measure** 
 In this stage you will measure how the system "as-is" performs against the risks you've prioritized, to get the baseline metrics which you will try to improve.

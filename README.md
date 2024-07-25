@@ -9,5 +9,3 @@ Here, you will find several directories:
 ├── alfredo-restaurant      # Web app used by the Guardrails lab
 ├── guardrail-lab           # Labs with exercises
 ```
-
-
