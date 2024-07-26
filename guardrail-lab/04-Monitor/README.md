@@ -1,21 +1,25 @@
-# 04-Monitor
+### Data Collection and Monitoring
 
-When a system is running in production, it is valuable and necessary to collect data on its performance, to observe and monitor when problems arise and, for example, to collect more input datasets for retrieval & generation experiments. Although logging and monitoring is not specific to the implementation of guardrails, it is important to consider this crucial part of system design as well when focusing on AI safety.
+When a system is running in production, it is essential to collect data on its performance. This allows for effective monitoring, problem detection, and the collection of additional input datasets for retrieval and generation experiments. While logging and monitoring are not specific to the implementation of guardrails, they are crucial components of system design, especially when focusing on AI safety.
 
-Together with your group, think about how Alfredo the Agent is implemented and where the possible opportunities for instrumentation are.
+Consider the following questions with your team to identify opportunities for instrumentation in Alfredo the Agent:
 
-> Which data would you need to collect? (For example user feedback, error logs, metrics?)
+1. **Which data would you need to collect?**
+   - Examples: user feedback, error logs, metrics
 
-> Where in the system would you collect these datapoints? (For example in the UI, the ordering tool, input guardrails?)
+2. **Where in the system would you collect these data points?**
+   - Examples: in the UI, the ordering tool, input guardrails
 
-> Who is the consumer/end user of that data (For example the company's compliance team, data scientists, DevOps engineers, software engineers)?
+3. **Who is the consumer/end user of that data?**
+   - Examples: the company's compliance team, data scientists, DevOps engineers, software engineers
 
-> Where would that data be published/exported to? (For example on a monitoring dashboard, or stored in a dataset to be used for experimentation?)
+4. **Where would that data be published/exported to?**
+   - Examples: on a monitoring dashboard, or stored in a dataset for experimentation
 
-Now that you have an initial understanding of what you need to implement, you could consider these resources for implementing observability in a LangChain based system using an open-source standard like [OpenTelemetry](https://opentelemetry.io/).
+With an initial understanding of your implementation, consider the following resources for implementing observability in a LangChain-based system using the open-source standard [OpenTelemetry](https://opentelemetry.io/):
 
-- [Walkthroughs which provide examples of how to auto-instrument a LangChain python application using OpenTelemetry](https://opentelemetry.io/docs/languages/python/automatic/logs-example/)
+- [Walkthroughs for auto-instrumenting a LangChain Python application using OpenTelemetry](https://opentelemetry.io/docs/instrumentation/python/automatic/logs-example/)
 - [User Feedback Collection with LangChain and OpenTelemetry](https://github.com/microsoft/gen-ai-observability/blob/main/capabilities/user-feedback.md)
-- [Microsoft/Gen-AI-Observability: OpenTelemetry Instrumentation](https://github.com/microsoft/gen-ai-observability/blob/main/capabilities/otel-instrumentation.md)
+- [OpenTelemetry Instrumentation by Microsoft/Gen-AI-Observability](https://github.com/microsoft/gen-ai-observability/blob/main/capabilities/otel-instrumentation.md)
 
 ## Thank you for participating! 🥳
