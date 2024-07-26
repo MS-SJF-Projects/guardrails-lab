@@ -4,7 +4,7 @@ One way of mitigating hallucination by an agent, is to check for each agent's re
 
 ## Create an Azure Content Safety instance
 
-In the [Azure Portal](https://portal.azure.com), type **Azure Content Safety** in the search bar and create an new instance if needed.
+In the [Azure Portal](https://portal.azure.com), type **Azure Content Safety** in the search bar and create a new instance if needed.
 
 Please use **East US** as the region for deployment. As of today when writing this lab content, this is the only region which has all (preview) features available. You can review the [regional availability for ACS here](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/overview#region-availability).
 
