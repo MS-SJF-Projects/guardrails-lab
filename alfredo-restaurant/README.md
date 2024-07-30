@@ -41,4 +41,4 @@ We recommend the devcontainer route.
 
 ## Next step
 
-After setting up the project, see the [Guardrail Lab](guardrail-lab/00-Start-Here/README.md) to get started with Guardrails.
+After setting up the project, see the [Guardrail Lab](../guardrail-lab/00-Start-Here/README.md) to get started with Guardrails.
