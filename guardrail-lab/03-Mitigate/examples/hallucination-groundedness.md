@@ -33,7 +33,7 @@ ACS_KEY = "<your azure content safety subscription key>"
 
 ## Implement output guardrail
 
-In your local development setup, navigate to the `chat-api/guardrails/output.py` file.
+In your local development setup, navigate to the `chat-api/app/guardrails/output.py` file.
 
 Copy paste the code below into the `output.py` file. This code adds the functionality of checking in the output whether any specific `day` was mentioned, and then goes to check the menu for that given day using the `menu-api`. This retrieved menu is then passed onto the **Groundedness API** together with the agent's response, to see how grounded the agent's response was in the content that it has retrieved. If it turns out that the response is considered *ungrounded*, the agent will return a templated response with the menu as-is.
 
