@@ -49,7 +49,7 @@ ACS_KEY = "<your azure content safety subscription key>"
 
 ## Implement user input guardrail
 
-In your local development setup, navigate to the `chat-api/guardrails/input.py` file.
+In your local development setup, navigate to the `chat-api/app/guardrails/input.py` file.
 
 Copy paste the code below into the `input.py` file. This code adds the functionality of checking in the input whether it contains prompt injection attack or not by leveraging **Content Safety Shield Prompt API**. If it turns out that the user prompt is considered *attack*, the agent will return a templated response with an error message.
 
@@ -145,7 +145,7 @@ def check_user_input_validity(payload: ChatRequestSchema) -> tuple:
 
 ## Checking user information in input
 
-You can also introduce extra security by adding check for `user_id`. To do that, in your local development setup, navigate to the `chat-api/guardrails/input.py` file.
+You can also introduce extra security by adding check for `user_id`. To do that, in your local development setup, navigate to the `chat-api/app/guardrails/input.py` file.
 
 Copy paste the code below into the `input.py` file. This code adds the functionality of checking `user_id` in the request. Currently, there is no check, with this one, we can have extra control.
 
