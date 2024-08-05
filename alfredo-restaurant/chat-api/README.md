@@ -18,7 +18,7 @@ A simple implementation of a Langchain Tools Agent using Azure OpenAI.
 
 ## Installation & configuration 
 
-Please see the [environment setup](../docs/README.md) for options on installation & configuration. 
+Please see the [environment setup](../README.md#environment-setup) for options on installation & configuration. 
 
 <br>
 

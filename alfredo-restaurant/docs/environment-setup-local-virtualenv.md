@@ -15,7 +15,7 @@ Please ensure your development environment has the following:
 - Docker (optional) including docker-compose 
 - node (optional) for running chat UI frontend
 
-You may wish to consider [running with Codespaces](environment-setup-codespaces.md) or [devcontainers](environment-setup-devcontainer.md) 
+You may wish to consider [running with devcontainers](environment-setup-devcontainer.md) 
 if you do not have the above requirements. 
 
 <br>
@@ -61,7 +61,7 @@ You have 2 options for running everything locally:
 Please follow the respective option below.
 
 In both cases, shortcut `make` commands have been provided.  These should be run from the repository root. 
-If you are unable to run the commands, then look at the [Makefile](Makefile) for the corresponding command. 
+If you are unable to run the commands, then look at the [Makefile](../Makefile) for the corresponding command. 
 
 <br>
 
@@ -126,16 +126,7 @@ Regardless of the method used, you should have the APIs running now.
 
 Try using http://localhost:8000/docs to explore the data in the backend Restaurant database. 
 
-![Swagger UI for the Restaurant API](images/localhost-8000.png)
-
-<br>
-
-Try sending a request to the agent using the Swagger UI http://localhost:3000/docs 
-
-![Swagger UI for the Chat API](images/localhost-3000.png)
-
-
-<br> 
+Then try sending a request to the agent using the Swagger UI at http://localhost:3000/docs 
 
 ## Using notebooks 
 
@@ -146,8 +137,6 @@ make jupyter       # alias for `poetry run jupyter lab`
 ```
 
 A browser window should open at http://localhost:8888 where you can navigate to open notebooks. 
-
-![Jupyter notebooks](images/jupyterlab-8888.png)
 
 <br>
 
@@ -161,6 +150,3 @@ make ui-serve
 ```
 
 You should then be able to access a UI on http://localhost:8080.  By default, this will send requests to the Chat API at http://localhost:3000/chat 
-
-![Front-end for the Agent Chat](images/localhost-8080.png)
-

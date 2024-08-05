@@ -19,7 +19,5 @@ Consider the following questions with your team to identify opportunities for in
 With an initial understanding of your implementation, consider the following resources for implementing observability in a LangChain-based system using the open-source standard [OpenTelemetry](https://opentelemetry.io/):
 
 - [Walkthroughs for auto-instrumenting a LangChain Python application using OpenTelemetry](https://opentelemetry.io/docs/instrumentation/python/automatic/logs-example/)
-- [User Feedback Collection with LangChain and OpenTelemetry](https://github.com/microsoft/gen-ai-observability/blob/main/capabilities/user-feedback.md)
-- [OpenTelemetry Instrumentation by Microsoft/Gen-AI-Observability](https://github.com/microsoft/gen-ai-observability/blob/main/capabilities/otel-instrumentation.md)
 
 ## Thank you for participating! 🥳
