@@ -107,11 +107,3 @@ output_dataset_name = '<new-name-for-dataset-with-evaluation-metrics>.csv'
 > What do you think of these metrics? Can we do better?
 
 Please go ahead to to the next stage --> [03-Mitigate](../03-Mitigate/README.md)
-
-
-
-## Congrats, you finished the **Measure** stage!
-
-> What do you think of these metrics? Can we do better?
-
-Please go ahead to to the next stage --> [03-Mitigate](../03-Mitigate/README.md)

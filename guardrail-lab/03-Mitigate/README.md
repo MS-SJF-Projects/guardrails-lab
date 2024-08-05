@@ -4,7 +4,7 @@ In this stage, you can start experimenting with different implementations of gua
 
 ## 3.1 Mapping Risks to Guardrails
 
-As part of the table you created in [Step 1.2 and 1.3](../01-Identify/README.md/#12-categorize-risks), you also identified at which `System Layer(s)` the risks are present, which gives additional insight as to where the *guardrails* could be implemented. This is not a 1:1 risk-to-guardrail mapping exercise: one risk could have multiple guardrails at various layers, and one guardrail could contribute to mitigating multiple risks.
+As part of the table you created in [Step 1.2 and 1.3](../01-Identify/README.md), you also identified at which `System Layer(s)` the risks are present, which gives additional insight as to where the *guardrails* could be implemented. This is not a 1:1 risk-to-guardrail mapping exercise: one risk could have multiple guardrails at various layers, and one guardrail could contribute to mitigating multiple risks.
 
 In the image below you can see an example of mapping different guardrails implemented at different system layers:
 
