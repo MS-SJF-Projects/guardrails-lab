@@ -17,17 +17,18 @@ Here, you will find several directories:
 You will require an Azure OpenAI model deployed - at least GPT-4 (and preferably a recent version of GPT4-Turbo)
 with a high rate limit (preferably 40,000 TPM (tokens per minute)  if possible).
 
-You can create one either via the Azure admin portal: 
-- [Manual deployment via Azure portal](infra/manual-deployment-in-azure-portal.md) or 
+You can create one via the Azure admin portal:
 
-You will need the following for your deployed model: 
-- Endpoint name 
-- Deployment name 
-- API key 
-- API version 
+- [Manual deployment via Azure portal](infra/manual-deployment-in-azure-portal.md)
+
+You will need the following for your deployed model:
+
+- Endpoint name
+- Deployment name
+- API key
+- API version
 
 (Please see the guidance above on where to find these.)
-
 
 ## Environment setup
 
@@ -41,4 +42,4 @@ We recommend the devcontainer route.
 
 ## Next step
 
-After setting up the project, see the [Guardrail Lab](guardrail-lab/00-Start-Here/README.md) to get started with Guardrails.
+After setting up the project, see the [Guardrail Lab](../guardrail-lab/00-Start-Here/README.md) to get started with Guardrails.

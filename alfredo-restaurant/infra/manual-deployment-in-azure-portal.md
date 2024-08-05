@@ -62,10 +62,3 @@
 
 18. Click the `Create` button and wait the deployment to complete.
 19. You're done! Now return to configure the lab.
-
-
-
-
-
-
-
