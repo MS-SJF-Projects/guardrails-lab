@@ -3,6 +3,9 @@
   "ignorePatterns": [
     {
       "pattern": "localhost"
+    },
+    {
+      "pattern": "^https://platform.openai.com/docs/"
     }
   ],
   "replacementPatterns": [
