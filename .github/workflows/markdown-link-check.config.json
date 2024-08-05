@@ -2,7 +2,10 @@
   "projectBaseUrl":"${workspaceFolder}",
   "ignorePatterns": [
     {
-      "pattern": "localhost"
+      "pattern": "^http://localhost"
+    },
+    {
+      "pattern": "^http://127."
     },
     {
       "pattern": "^https://platform.openai.com/docs/"

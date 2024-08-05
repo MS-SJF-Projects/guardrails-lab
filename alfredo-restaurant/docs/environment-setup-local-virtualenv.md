@@ -15,7 +15,7 @@ Please ensure your development environment has the following:
 - Docker (optional) including docker-compose 
 - node (optional) for running chat UI frontend
 
-You may wish to consider [running with Codespaces](environment-setup-codespaces.md) or [devcontainers](environment-setup-devcontainer.md) 
+You may wish to consider [running with devcontainers](environment-setup-devcontainer.md) 
 if you do not have the above requirements. 
 
 <br>
@@ -61,7 +61,7 @@ You have 2 options for running everything locally:
 Please follow the respective option below.
 
 In both cases, shortcut `make` commands have been provided.  These should be run from the repository root. 
-If you are unable to run the commands, then look at the [Makefile](Makefile) for the corresponding command. 
+If you are unable to run the commands, then look at the [Makefile](../Makefile) for the corresponding command. 
 
 <br>
 
@@ -146,8 +146,6 @@ make jupyter       # alias for `poetry run jupyter lab`
 ```
 
 A browser window should open at http://localhost:8888 where you can navigate to open notebooks. 
-
-![Jupyter notebooks](images/jupyterlab-8888.png)
 
 <br>
 
