@@ -126,16 +126,7 @@ Regardless of the method used, you should have the APIs running now.
 
 Try using http://localhost:8000/docs to explore the data in the backend Restaurant database. 
 
-![Swagger UI for the Restaurant API](images/localhost-8000.png)
-
-<br>
-
-Try sending a request to the agent using the Swagger UI http://localhost:3000/docs 
-
-![Swagger UI for the Chat API](images/localhost-3000.png)
-
-
-<br> 
+Then try sending a request to the agent using the Swagger UI at http://localhost:3000/docs 
 
 ## Using notebooks 
 
@@ -159,6 +150,3 @@ make ui-serve
 ```
 
 You should then be able to access a UI on http://localhost:8080.  By default, this will send requests to the Chat API at http://localhost:3000/chat 
-
-![Front-end for the Agent Chat](images/localhost-8080.png)
-
