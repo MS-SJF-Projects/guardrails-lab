@@ -1,6 +1,7 @@
 # Introduction
 
-Welcome to the GenAI Guardrails hands-on lab! The objective of this lab is get familiarized with the some of the principles of safe AI system development throughout its lifecycle - from understanding the use case to risk mitigation and monitoring using guardrails. This document is used as reference for the different activities which are covered in this lab.
+Welcome to the GenAI Guardrails hands-on lab! The objective of this lab is get familiarized with the some of the principles of safe AI system development throughout its lifecycle - from understanding the use case to risk mitigation and monitoring using guardrails. A detailed overview of using guardrails as part of safe GenAI system development can be found [here](guardrails.md).
+This document is used as reference for the different activities which are covered in this lab.
 
 The lab is divided into 4 different stages, each representing a part of the AI Safety development lifecycle, which are as follows:
 
