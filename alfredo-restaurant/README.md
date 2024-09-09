@@ -36,7 +36,7 @@ You have 2 options for environment setup, installation of APIs and using Noteboo
 
 1. [**Devcontainer & Docker-compose**](docs/environment-setup-devcontainer.md) 
 
-2. [**Poetry & python**](docs/environment-setup-local-virtualenv) - for developers comfortable with the command line, pyenv and poetry.
+2. [**Poetry & python**](docs/environment-setup-local-virtualenv.md) - for developers comfortable with the command line, pyenv and poetry.
 
 We recommend the devcontainer route.
 

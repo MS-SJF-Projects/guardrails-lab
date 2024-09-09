@@ -1,0 +1,30 @@
+{
+  "projectBaseUrl":"${workspaceFolder}",
+  "ignorePatterns": [
+    {
+      "pattern": "^http://localhost"
+    },
+    {
+      "pattern": "^http://127."
+    },
+    {
+      "pattern": "^https://platform.openai.com/docs/"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/",
+      "replacement": "{{BASEURL}}/"
+    },
+    {
+      "pattern": "%20",
+      "replacement": "-",
+      "global": true
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 5,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206]
+}
